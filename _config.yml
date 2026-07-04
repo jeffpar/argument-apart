@@ -1,0 +1,23 @@
+title: Argument Aloud
+tagline: U.S. Supreme Court Data
+description: Collection of all electronically available briefs, transcripts, journals, opinions, and other case-related media for the U.S. Supreme Court
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+webrick:
+  headers:
+    Accept-Ranges: bytes
+    Cache-Control: public, max-age=3600
+    Access-Control-Allow-Origin: "*"
+exclude:
+  - .github/
+  - .history/
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - config.json
+  - package.json
+  - package-lock.json
+  - node_modules/
+include:
+  - .well-known
