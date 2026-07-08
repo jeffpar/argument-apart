@@ -1,2 +1,1 @@
-# U.S. Supreme Court Argument Data
-
+# U.S. Supreme Court Data
